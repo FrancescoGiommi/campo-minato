@@ -6,6 +6,15 @@
 
     <link rel="stylesheet" href="./css/style.css" />
 
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -17,108 +26,141 @@
   </head>
   <body>
     <div class="container my-5">
-      <h1 class="text-center">Campo minato</h1>
+      <h1 class="text-center mb-5">Campo minato</h1>
       <!-- Griglia 9x9 -->
-      <div class="out-container">
-        <div class="grid-container">
-          <div class="d-flex gap-3">
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
+      <div class="d-flex gap-5">
+        <div class="out-container">
+          <div
+            class="mines-times-container d-flex justify-content-around align-items-center p-3"
+          >
+            <div class="mines"></div>
+            <div class="emoji fs-1"></div>
+            <div class="time"></div>
           </div>
-          <div class="d-flex gap-3 mt-3">
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
+          <div class="grid-container">
+            <div class="d-flex gap-3">
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+            </div>
+            <div class="d-flex gap-3 mt-3">
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+            </div>
+            <div class="d-flex gap-3 mt-3">
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+            </div>
+            <div class="d-flex gap-3 mt-3">
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+            </div>
+            <div class="d-flex gap-3 mt-3">
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+            </div>
+            <div class="d-flex gap-3 mt-3">
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+            </div>
+            <div class="d-flex gap-3 mt-3">
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+            </div>
+            <div class="d-flex gap-3 mt-3">
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+            </div>
+            <div class="d-flex gap-3 mt-3">
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+              <div class="grid"></div>
+            </div>
           </div>
-          <div class="d-flex gap-3 mt-3">
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-          </div>
-          <div class="d-flex gap-3 mt-3">
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-          </div>
-          <div class="d-flex gap-3 mt-3">
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-          </div>
-          <div class="d-flex gap-3 mt-3">
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-          </div>
-          <div class="d-flex gap-3 mt-3">
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-          </div>
-          <div class="d-flex gap-3 mt-3">
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-          </div>
-          <div class="d-flex gap-3 mt-3">
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
-            <div class="grid"></div>
+        </div>
+        <div class="d-flex flex-column gap-5 h-50 w-100">
+          <h2>Difficoltà</h2>
+          <div class="d-flex flex-column h-50 w-50">
+            <!-- Bottoni Play e Reset -->
+            <div class="d-flex justify-content-between gap-3 w-100 h-50">
+              <button class="btn btn-success">
+                Play <i class="fa-solid fa-play"></i>
+              </button>
+              <button class="btn btn-warning">
+                Reset <i class="fa-solid fa-rotate-right"></i>
+              </button>
+            </div>
+            <!-- Select Difficoltà -->
+            <select
+              class="form-select mt-5"
+              aria-label="Default select example"
+            >
+              <option selected>Seleziona difficoltà</option>
+              <option value="facile">Facile</option>
+              <option value="normale">Normale</option>
+              <option value="difficile">Difficile</option>
+            </select>
           </div>
         </div>
       </div>
